@@ -71,6 +71,8 @@ on_finish:
 
     pip install --upgrade pip
     
+    sudo apt-get install python3.7
+
     pip install codecov
 
     codecov -f .\ConvertedReport.xml -X gcov
